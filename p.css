@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header S*/
+header {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5722 !important;
+}
+
+/* HS*/
+.hero {
+  background-image: url("https://cdn.thewirecutter.com/wp-content/media/2024/08/androidphones-2048px-04371-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: rgba(255, 117, 24, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* PS*/
+.product-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #ff5722;
+}
+
+.card img {
+  object-fit: cover;
+  max-height: 200px;
+}
+
+/* FS*/
+footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li {
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #ff5722;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* RS*/
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .product-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .card img {
+    max-height: 150px;
+  }
+}
+/* AS*/
+.about-section h2 {
+  color: #ff5722;
+  font-size: 2rem;
+}
+
+.about-section p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* CS*/
+.contact-section h2 {
+  color: #ff5722;
+  font-size: 2rem;
+}
+
+.contact-section form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section form .btn-primary {
+  background-color: #ff5722;
+  border: none;
+}
+
+.contact-section form .btn-primary:hover {
+  background-color: #e64a19;
+} 
+
+/*BS*/
+.btn-primary {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19; 
+}
